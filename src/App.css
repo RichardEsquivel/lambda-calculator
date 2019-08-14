@@ -1,0 +1,10 @@
+.container {
+    max-width: 450px;
+    border: 2.5px solid darkgrey;
+    background:red;
+    margin: 0 auto;
+    border-radius: 12px;
+    display:flex;
+
+
+}
