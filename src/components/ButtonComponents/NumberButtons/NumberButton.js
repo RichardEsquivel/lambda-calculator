@@ -1,13 +1,15 @@
 import React from 'react';
+import "../../../App.css";
 
 //display takes data through props
 const NumberButton = (props) => {
 	return (
-		<button>
+		<>
 			{/* Display a button element rendering the data being passed down from the parent container on props */}
-			{props.text}
-		</button>
-	);
+			<button className="button buttonBlue">{props.text}
+			</button>
+		</>
+	)
 };
 
 //exporting Number Button component to use elsewhere

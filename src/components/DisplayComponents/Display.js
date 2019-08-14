@@ -1,8 +1,8 @@
 import React from 'react';
+import '../../App.css';
 
 //Define component, display takes data through props
 const Display = (props) => {
-	console.log('Display', props.number);
 	return (
 		<div className="display">
 			{/* Display any props data here */}
