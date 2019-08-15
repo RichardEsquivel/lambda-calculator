@@ -1,0 +1,19 @@
+/* This allows the relative rem font sizes to be set based on the 10px or 62.5% value */
+
+html {
+    font-size: 62.5%;
+}
+
+/*calculator body */
+.container {
+    max-width: 450px;
+    border: 2.5px solid darkgrey;
+    background:red;
+    margin: 0 auto;
+    border-radius: 12px;
+    display:flex;
+
+
+
+
+}
